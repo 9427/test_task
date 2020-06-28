@@ -69,7 +69,6 @@ FILES_STORE = 'tmp'
 
 ITEM_PIPELINES = {
     'scrapy.pipelines.files.FilesPipeline': 1,
-    'test_task.pipelines.TestTaskPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
